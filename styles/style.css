@@ -10,20 +10,23 @@
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: hsl(0, 0%, 8%);
   height: 100vh;
   font-family: Inter, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
   font-family: Inter, serif;
-}
-
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .main-container {
